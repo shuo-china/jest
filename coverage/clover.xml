@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1657792149895" clover="3.2.0">
-  <project timestamp="1657792149895" name="All files">
+<coverage generated="1657808262307" clover="3.2.0">
+  <project timestamp="1657808262307" name="All files">
     <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1" elements="7" coveredelements="7" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
-    <file name="fetchData.js" path="D:\FrontEndProjects\jest\fetchData.js">
+    <file name="fetchData.js" path="E:\Front End Project\jest-demo\fetchData.js">
       <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
