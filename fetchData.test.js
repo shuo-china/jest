@@ -1,9 +1,14 @@
 import { fetchData } from "./fetchData";
 
-test("fetchData返回结果为{success:true}", () => {
-  return expect(fetchData()).resolves.toMatchObject({
-    data: {
-      success: true,
-    },
-  });
+test("fetchData await", async () => {
+  try {
+    const response = await fetchData();
+    expect(response).toMatchObject({
+      data: {
+        success: true,
+      },
+    });
+  } catch (error) {
+    expect(error.toString().includes("404")).toEqual(true);
+  }
 });
